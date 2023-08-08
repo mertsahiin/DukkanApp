@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "DukkanApp",
+    "slug": "DukkanApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "DukkanApp"
+}
