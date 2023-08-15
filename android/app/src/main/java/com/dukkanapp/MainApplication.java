@@ -1,5 +1,5 @@
 package com.dukkanapp;
-
+import com.lugg.RNCConfig.RNCConfigPackage;
 import android.app.Application;
 import android.content.res.Configuration;
 import androidx.annotation.NonNull;
@@ -29,6 +29,10 @@ public class MainApplication extends Application implements ReactApplication {
 
       @Override
       protected List<ReactPackage> getPackages() {
+        return Arrays.asList(
+       		new MainReactPackage()
+      		new RNCConfigPackage()
+    );
         @SuppressWarnings("UnnecessaryLocalVariable")
         List<ReactPackage> packages = new PackageList(this).getPackages();
         // Packages that cannot be autolinked yet can be added manually here, for example:
